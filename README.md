@@ -8,6 +8,40 @@ This project replicates the core functionality of Instagram including authentica
 ## 🚀 Live Demo  
 https://insta-clone-mern.vercel.app
 
+# ⚙️ How to Run the Project Locally
+## 🗄️ 1. Clone the Repository
+git clone https://github.com/your-username/InstaClone.git
+cd InstaClone
+
+---
+
+## 🛠️ 2. Backend Setup
+cd backend
+npm install
+
+### Create a `.env` file inside backend:
+MONGO_URI=your_mongodb_connection_string
+
+JWT_SECRET=your_secret_key
+
+CLOUDINARY_CLOUD_NAME=your_cloud_name
+
+CLOUDINARY_API_KEY=your_api_key
+
+CLOUDINARY_API_SECRET=your_api_secret
+
+### Run the backend:
+npm run dev
+
+
+
+## 🎨 3. Frontend Setup
+cd ../frontend
+npm install
+
+### Run the frontend:
+npm run dev
+
 ---
 
 ## ⭐ Features
@@ -86,35 +120,6 @@ https://insta-clone-mern.vercel.app
 
 ---
 
-# ⚙️ How to Run the Project Locally
-## 🗄️ 1. Clone the Repository
-git clone https://github.com/your-username/InstaClone.git
-cd InstaClone
-
----
-
-## 🛠️ 2. Backend Setup
-cd backend
-npm install
-
-### Create a `.env` file inside backend:
-MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=your_secret_key
-CLOUDINARY_CLOUD_NAME=your_cloud_name
-CLOUDINARY_API_KEY=your_api_key
-CLOUDINARY_API_SECRET=your_api_secret
-
-### Run the backend:
-npm run dev
-
-
-
-## 🎨 3. Frontend Setup
-cd ../frontend
-npm install
-
-### Run the frontend:
-npm run dev
 
 
 
